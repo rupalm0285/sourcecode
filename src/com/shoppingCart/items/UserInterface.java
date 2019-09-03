@@ -1,17 +1,19 @@
 package com.shoppingCart.items;
 
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class UserInterface {
-    cart Cart = new cart();
-    private int ch = 0;
 
-    public UserInterface () {
+    cart Cart = new cart();
+    public int ch = 0;
+
+    public UserInterface() {
         menu();
     }
 
-    public void startScreen () {
+    public void startScreen() {
         System.out.println("1. Display Store Products");
         System.out.println("2. Display Cart");
         System.out.println("3. Final Cost");
@@ -24,7 +26,7 @@ public class UserInterface {
         System.out.println("0. Exit");
     }
 
-    public void menu () {
+    public void menu() {
         do {
             startScreen();
             getUserInput();
@@ -46,6 +48,7 @@ public class UserInterface {
                     System.exit(0);
                     break;
                 default:
+                    System.out.println("Entered value is not correct input");
                     break;
             }
         } while (ch != 0);
@@ -65,15 +68,23 @@ public class UserInterface {
         }
     }
 
-    private int getUserInput() throws NumberFormatException {
+    private int getUserInput() {
         Scanner in = new Scanner(System.in);
-        ch = Integer.parseInt(in.nextLine());
+        try {
+            ch = in.nextInt();
+        }
+        catch (InputMismatchException exception)
+        {
+            System.out.println("Please enter integer values from the one shown in display");
+            in.next();
+            ch = 5;
+        }
         return ch;
     }
 
     private void displayStoreProducts() {
         ArrayList<item> items = new Items().getItems();
-        for (item x: items) {
+        for (item x : items) {
             System.out.println(
                     x.getItemID() + "- " +
                             x.getItemName() + " " +
@@ -84,7 +95,6 @@ public class UserInterface {
 
     private void addItemToCart() {
         int id = getUserInput();
-
         Cart.addItemToCartByID(id);
     }
 
@@ -92,9 +102,10 @@ public class UserInterface {
         Cart.printCartItems();
     }
 
-    private void priceCart(){
-       Cart.printCartPrice();
+    private void priceCart() {
+        Cart.printCartPrice();
     }
+
     private void removeItemFromCart() {
         int id = getUserInput();
         Cart.removeItemByPID(id);

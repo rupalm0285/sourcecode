@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa39ba3d-1016-4e1b-8019-26bcda9cfb23" name="Default Changelist" comment="" />
+    <list default="true" id="fa39ba3d-1016-4e1b-8019-26bcda9cfb23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/shoppingCart/itemsTest/ItemsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/shoppingCart/itemsTest/UserInterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/shoppingCart/itemsTest/cartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/shoppingCart/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/shoppingCart/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/shoppingCart/items/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/shoppingCart/items/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/shoppingCart/items/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/shoppingCart/items/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/shoppingCart/items/cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/shoppingCart/items/cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/shoppingCart/items/cartTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/shoppingCart/items/item.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/shoppingCart/items/item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/com/shoppingCart/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/com/shoppingCart/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/com/shoppingCart/items/Items.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/com/shoppingCart/items/Items.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/com/shoppingCart/items/UserInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/com/shoppingCart/items/UserInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/com/shoppingCart/items/cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/com/shoppingCart/items/cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/com/shoppingCart/items/cartTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProject/com/shoppingCart/items/item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProject/com/shoppingCart/items/item.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,19 +35,21 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1Q4TtdrZvCuAvRfcWXEdoaHI2CN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -36,7 +57,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.shoppingCart.items" />
       <recent name="com.creditsuisse.items" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shoppingCart.itemsTest" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -54,8 +79,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.cartTest.calculateCartPrice (1)">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ItemsTest.initializeItems">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shoppingCart.Main" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shoppingCart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.creditsuisse.Main" />
       <module name="JavaProject" />
@@ -69,63 +107,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cartTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ItemsTest.initializeItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shoppingCart.items.*" />
+          <option name="PATTERN" value="com.shoppingCart.itemsTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.shoppingCart.items" />
-      <option name="MAIN_CLASS_NAME" value="com.shoppingCart.items.cartTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.creditsuisse.items.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.creditsuisse.items" />
-      <option name="MAIN_CLASS_NAME" value="com.creditsuisse.items.cartTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cartTest.calculateCartPrice (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shoppingCart.items.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shoppingCart.items" />
-      <option name="MAIN_CLASS_NAME" value="com.shoppingCart.items.cartTest" />
-      <option name="METHOD_NAME" value="calculateCartPrice" />
+      <option name="PACKAGE_NAME" value="com.shoppingCart.itemsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.shoppingCart.itemsTest.ItemsTest" />
+      <option name="METHOD_NAME" value="initializeItems" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cartTest.calculateCartPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserInterfaceTest.menu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.creditsuisse.items.*" />
+          <option name="PATTERN" value="com.shoppingCart.itemsTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.creditsuisse.items" />
-      <option name="MAIN_CLASS_NAME" value="com.creditsuisse.items.cartTest" />
-      <option name="METHOD_NAME" value="calculateCartPrice" />
+      <option name="PACKAGE_NAME" value="com.shoppingCart.itemsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.shoppingCart.itemsTest.UserInterfaceTest" />
+      <option name="METHOD_NAME" value="menu" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInterfaceTest.startScreen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shoppingCart.itemsTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shoppingCart.itemsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.shoppingCart.itemsTest.UserInterfaceTest" />
+      <option name="METHOD_NAME" value="startScreen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInterfaceTest.storeProductsMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shoppingCart.itemsTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shoppingCart.itemsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.shoppingCart.itemsTest.UserInterfaceTest" />
+      <option name="METHOD_NAME" value="storeProductsMenu" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,18 +173,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.cartTest.calculateCartPrice" />
-      <item itemvalue="JUnit.cartTest" />
-      <item itemvalue="JUnit.cartTest (1)" />
-      <item itemvalue="JUnit.cartTest.calculateCartPrice (1)" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="JUnit.UserInterfaceTest.startScreen" />
+      <item itemvalue="JUnit.UserInterfaceTest.storeProductsMenu" />
+      <item itemvalue="JUnit.UserInterfaceTest.menu" />
+      <item itemvalue="JUnit.ItemsTest.initializeItems" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.cartTest.calculateCartPrice (1)" />
-        <item itemvalue="JUnit.cartTest (1)" />
-        <item itemvalue="JUnit.cartTest.calculateCartPrice" />
-        <item itemvalue="JUnit.cartTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ItemsTest.initializeItems" />
+        <item itemvalue="JUnit.UserInterfaceTest.menu" />
+        <item itemvalue="JUnit.UserInterfaceTest.startScreen" />
+        <item itemvalue="JUnit.UserInterfaceTest.storeProductsMenu" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -160,5 +201,30 @@
       <updated>1567029084873</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/com/shoppingCart/itemsTest/UserInterfaceTest.java</url>
+          <line>25</line>
+          <properties class="com.shoppingCart.itemsTest.UserInterfaceTest" method="menu">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

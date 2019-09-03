@@ -1,10 +1,11 @@
-    package com.shoppingCart;
 
-    import com.shoppingCart.items.UserInterface;
+package com.shoppingCart;
 
-    public class Main {
+import com.shoppingCart.items.UserInterface;
 
-        public static void main(String[] args) {
-            new UserInterface();
-        }
+public class Main {
+
+    public static void main(String[] args) {
+        new UserInterface();
     }
+}

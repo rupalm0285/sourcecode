@@ -1,0 +1,3 @@
+This is a sample project of updating shopping cart, as and when any new item is added from the stock of store to the cart. When we add 1 apple, the cart is updated to 1 apple, when we add another one the cart is updated to 2 apple. Similarly other items can be added. 
+
+Also, there are two offers in project added for lime and melon. 
